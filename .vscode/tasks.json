@@ -15,6 +15,15 @@
                 "reveal": "always",
                 "panel": "new"
             }
+        },
+        {
+            "label": "build-ts",
+            "type": "shell",
+            "command": "tsc -p tsconfig.json",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
